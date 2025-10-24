@@ -64,7 +64,6 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(HoldOnPlayData) }}
         />
         <AdSense pId="ca-pub-9891580637314161"/>
-     crossorigin="anonymous"/>
       </Head>
     <html lang="en">
       <body
