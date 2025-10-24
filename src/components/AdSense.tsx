@@ -6,7 +6,12 @@ type AdSenseTypes = {
 
 const AdSense = ({ pId }: AdSenseTypes) => {
   return (
-    <div>AdSense</div>
+    <script
+      async
+      src= {'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9891580637314161'}
+      crossorigin="anonymous"
+      strategy='afterInteractive'
+      />
   )
 }
 
