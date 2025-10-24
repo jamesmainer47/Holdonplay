@@ -10,6 +10,7 @@ import Chatbot from "@/components/ui/hopAssistant";
 import ThemeProvider from "@/components/ui/ThemeProvider";
 import { useTheme } from "@/components/ui/ThemeProvider";
 import Head from "next/head";
+import AdSense from "@components/AdSense;
 
 //export const metadata: Metadata = {
 //  title: "HoldONPlay | A Music Distribution Company",
@@ -62,7 +63,7 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(HoldOnPlayData) }}
         />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9891580637314161"
+        <AdSense pId="ca-pub-9891580637314161"/>
      crossorigin="anonymous"/>
       </Head>
     <html lang="en">
