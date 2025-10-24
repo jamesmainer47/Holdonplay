@@ -1,0 +1,152 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.firsty::after{
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.scrollme {
+  animation-name: scroller;
+  animation-iteration-count: infinite;
+  animation-duration: 50s;
+  animation-delay: 2s;
+  scrollbar-width: none;
+}
+@keyframes scroller {
+    from {
+        transform: translateX(100%);
+    }
+    2.5%{
+        transform: translateX(95%);
+    }
+    5%{
+        transform: translateX(90%);
+    }
+    7.5%{
+        transform: translateX(85%);
+    }
+    10%{
+        transform: translateX(80%);
+    }
+    12.5%{
+        transform: translateX(75%);
+    }
+    15%{
+        transform: translateX(70%);
+    }
+    17.5%{
+        transform: translateX(65%);
+    }
+    20%{
+        transform: translateX(60%);
+    }
+    22.5%{
+        transform: translateX(55%);
+    }
+    25%{
+        transform: translateX(50%);
+    }
+    27.5%{
+        transform: translateX(45%);
+    }
+    30%{
+        transform: translateX(40%);
+    }
+    32.5%{
+        transform: translateX(35%);
+    }
+    35%{
+        transform: translateX(30%);
+    }
+    37.5%{
+        transform: translateX(25%);
+    }
+    40%{
+        transform: translateX(20%);
+    }
+    42.5%{
+        transform: translateX(15%);
+    }
+    45%{
+        transform: translateX(10%);
+    }
+    47.5%{
+        transform: translateX(5%);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    52.5%{
+        transform: translateX(-5%);
+    }
+    55%{
+        transform: translateX(-10%);
+    }
+    57.5%{
+        transform: translateX(-15%);
+    }
+    60% {
+      transform: translateX(-20%);
+    }
+    65% {
+      transform: translateX(-25%);
+    }
+    70% {
+      transform: translateX(-30%);
+    }
+    75% {
+      transform: translateX(-35%);
+    }
+    80% {
+      transform: translateX(-40%);
+    }
+    85% {
+      transform: translateX(-45%);
+    }
+    90% {
+      transform: translateX(-50%);
+    }
+    95% {
+      transform: translateX(-55%);
+    }
+    to {
+        transform: translateX(-60%);
+    }
+}
