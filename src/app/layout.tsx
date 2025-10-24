@@ -10,7 +10,7 @@ import Chatbot from "@/components/ui/hopAssistant";
 import ThemeProvider from "@/components/ui/ThemeProvider";
 import { useTheme } from "@/components/ui/ThemeProvider";
 import Head from "next/head";
-import AdSense from "@components/AdSense;
+import AdSense from "@/components/AdSense";
 
 //export const metadata: Metadata = {
 //  title: "HoldONPlay | A Music Distribution Company",
