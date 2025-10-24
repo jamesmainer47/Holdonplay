@@ -1,0 +1,240 @@
+{
+    "bookables": [
+        {
+            "id": 1,
+            "group": "Rooms",
+            "title": "Games Room",
+            "notes": "Table tennis, table football, pinball! Please tidy up! Make sure you enjoy",
+            "sessions": [0, 2, 4],
+            "days": [0, 2, 3, 4, 5, 6]
+        },
+        {
+            "id": 2,
+            "group": "Rooms",
+            "title": "Play Grounds",
+            "notes": "We goona play anythin we want, you know how we want to enjoy Guys . Fuck them haters",
+            "sessions": [1, 3, 4],
+            "days": [0,5, 6]
+        },
+        {
+            "id": 4,
+            "group": "Rooms",
+            "title": "We done",
+            "notes": "We have done it all. Still there is time to do bad things . Fuck them haters",
+            "sessions": [0, 2, 3],
+            "days": [1, 3, 4, 5, 6]
+        },
+        {
+            "id": 5,
+            "group": "Rooms",
+            "title": "House of Fame",
+            "notes": "Bitch i really want to be among those who are so close to you",
+            "sessions": [1, 3, 4],
+            "days": [0,5, 6]
+        },
+        {
+            "id": 6,
+            "group": "Grounds",
+            "title": "Play Grounds",
+            "notes": "You are special, you are the best , you are one among millions niggah",
+            "sessions": [0, 2, 3],
+            "days": [1, 3, 4, 5, 6]
+        },
+        {
+            "id": 7,
+            "group": "Grounds",
+            "title": "magic Grounds",
+            "notes": "Haha .. This is the time to perform magic guys .. We gonna show people that money is not everything to fight for.",
+            "sessions": [1, 3, 4],
+            "days": [0,5, 6]
+        },
+        {
+            "id": 8,
+            "group": "Grounds",
+            "title": "dance with Me",
+            "notes": "Beiby Pleases Come dance with me. Some rhythm are good with you",
+            "sessions": [0, 2, 3],
+            "days": [1, 3, 4, 5, 6]
+        },
+        {
+            "id": 9,
+            "group": "Kits",
+            "title": "Food First",
+            "notes": "Eat more Chicken. Eat more Food . Eat more everything Good. We are not here to struggle",
+            "sessions": [1, 3, 4],
+            "days": [0,5, 6]
+        },
+        {
+            "id": 10,
+            "group": "Kits",
+            "title": "First Aid",
+            "notes": "OOOOh... are you sick? i am really here my boo for you... I want to treat you better",
+            "sessions": [0, 2, 3],
+            "days": [1, 3, 4, 5, 6]
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "Mark",
+            "img": "/users/user0.jpeg",
+            "title": "Envisioning Sculptor",
+            "notes": "With the company for 15 years, Mark has consistently…"
+        },
+        {
+            "id": 2,
+            "name": "Joel",
+            "img": "/users/user1.jpeg",
+            "title": "Envisioning Sculptor",
+            "notes": "With the company for 15 years, Mark has consistently…"
+        },
+        {
+            "id": 3,
+            "name": "Maina",
+            "img": "/users/user2.jpeg",
+            "title": "Envisioning Sculptor",
+            "notes": "With the company for 15 years, Mark has consistently…"
+        },
+        {
+            "id": 4,
+            "name": "Stupid",
+            "img": "/users/user3.jpeg",
+            "title": "Envisioning Sculptor",
+            "notes": "With the company for 15 years, Mark has consistently…"
+        },
+        {
+            "id": 5,
+            "name": "Stupid",
+            "img": "/users/user3.jpeg",
+            "title": "Envisioning Sculptor",
+            "notes": "With the company for 15 years, Mark has consistently…"
+        },
+        {
+            "id": 6,
+            "name": "sally",
+            "img": "/users/user3.jpeg",
+            "title": "Envisioning Sculptor",
+            "notes": "With the company for 15 years, Mark has consistently…"
+        },{
+            "id": 7,
+            "name": "Stupid",
+            "img": "/users/user3.jpeg",
+            "title": "Envisioning Sculptor",
+            "notes": "With the company for 15 years, Mark has consistently…"
+        }
+    ],
+    "bookings": [
+
+    ]Ctrl+Tab cycles through tabs in recently used order
+Open links in tabs instead of new windows
+When you open a link, image or media in a new tab, switch to it immediately
+Confirm before closing multiple tabs
+Confirm before quitting with Ctrl+Q
+Language and Appearance
+Website appearance
+Some websites adapt their color scheme based on your preferences. Choose which color scheme you’d like to use for those sites.
+Automatic
+Light
+Dark
+Manage Firefox themes in Extensions & Themes
+Colors
+Override Firefox’s default colors for text, website backgrounds, and links.
+Fonts
+Default font
+Size
+Zoom
+Default zoom
+Zoom text only
+Language
+Choose the languages used to display menus, messages, and notifications from Firefox.
+Choose your preferred language for displaying pages
+Check your spelling as you type
+Translations
+Set your language and site translation preferences and manage languages downloaded for offline translation.
+Download languages for offline translation
+Albanian
+Bangla
+Bulgarian
+Catalan
+Croatian
+Czech
+Danish
+Dutch
+Estonian
+Finnish
+French
+German
+Greek
+Gujarati
+Hebrew
+Hindi
+Hungarian
+Indonesian
+Italian
+Kannada
+Latvian
+Lithuanian
+Malay
+Malayalam
+Persian
+Polish
+Portuguese
+Romanian
+Russian
+Serbian
+Slovak
+Slovenian
+Spanish
+Swedish
+Tamil
+Telugu
+Turkish
+Ukrainian
+Vietnamese
+Files and Applications
+Downloads
+Save files to
+Always ask you where to save files
+Applications
+Choose how Firefox handles the files you download from the web or the applications you use while browsing.
+application/vnd.groove-tool-template type
+AV1 Image File (AVIF)
+Extensible Markup Language (XML)
+magnet
+mailto
+Portable Document Format (PDF)
+Scalable Vector Graphics (SVG)
+unityhub
+WebP Image
+What should Firefox do with other files?
+Save files
+Ask whether to open or save files
+Digital Rights Management (DRM) Content
+Play DRM-controlled content
+Learn more
+Firefox Updates
+Keep Firefox up to date for the best performance, stability, and security.
+Version 128.11.0esr (64-bit) What’s new
+Performance
+Use recommended performance settings
+Learn more
+These settings are tailored to your computer’s hardware and operating system.
+Browsing
+Use autoscrolling
+Use smooth scrolling
+Always show scrollbars
+Always use the cursor keys to navigate within pages
+Always underline links
+Search for text when you start typing
+Enable picture-in-picture video controls
+Learn more
+Control media via keyboard, headset, or virtual interface
+Learn more
+Recommend extensions as you browse
+Learn more
+Recommend features as you browse
+Learn more
+Network Settings
+Configure how Firefox connects to the internet. Learn more
+
+}
