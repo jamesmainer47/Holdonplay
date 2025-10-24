@@ -52,7 +52,7 @@ export default function SixthSection(){
         setcurrentIndex((prev) => (prev === artistsay.length-1  ? 0 : prev + 1));
     };
     return(
-    <div className={`flex flex-col p-10 justify-center relative items-center text-center overflow-scroll ${theme === "dark" ? "bg-black text-white": "bg-white text-black"}`}>
+    <div className={`flex flex-col p-10 justify-center relative items-center text-center overflow-hidden ${theme === "dark" ? "bg-black text-white": "bg-white text-black"}`}>
         <h1 className="lg:text-5xl sm:text-2xl font-bold">What are <span className="text-blue-400">Artists </span>Saying About HoldOnPlay?</h1>
         <div className="flex relative">
             <div className="flex flex-row overflow-scroll transition-transform duration-300 ease-linear hide-scroll">
