@@ -60,13 +60,12 @@ export default function RootLayout({
   return (
     <>
       <Head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(HoldOnPlayData) }}
-        ></script>
         <AdSense pId={'ca-pub-9891580637314161'} />
       </Head>
-      
+      <Script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(HoldOnPlayData) }}
+        />
     <html lang="en">
       <body
         className={`${theme === "dark" ? "text-white bg-black" : "text-black bg-white"} ${poppins.variable} flex  flex-col antialiased relative  `}
