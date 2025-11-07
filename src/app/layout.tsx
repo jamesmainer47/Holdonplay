@@ -9,6 +9,7 @@ import News from "@/components/ui/news";
 import Chatbot from "@/components/ui/hopAssistant";
 import ThemeProvider from "@/components/ui/ThemeProvider";
 import { useTheme } from "@/components/ui/ThemeProvider";
+import Script from "next/script";
 import Head from "next/head";
 import AdSense from "@/components/AdSense";
 
@@ -59,7 +60,7 @@ export default function RootLayout({
   return (
     <>
       <Head>
-        <script
+        <Script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(HoldOnPlayData) }}
         />
