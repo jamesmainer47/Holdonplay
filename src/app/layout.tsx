@@ -60,7 +60,7 @@ export default function RootLayout({
   return (
     <>
       <Head>
-        <AdSense pId={'ca-pub-9891580637314161'} />
+        <AdSense pId='ca-pub-9891580637314161' />
       </Head>
       <Script
           type="application/ld+json"
