@@ -2,14 +2,14 @@ import React from 'react';
 import Script from "next/script";
 
 type AdSenseTypes = {
-  pId: 9891580637314161;
+  pId: string;
 }
 
 const AdSense = ({ pId }: AdSenseTypes) => {
   return (
     <Script 
       async 
-      src={ 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-${pId}' }
+      src={ 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${pId}' }
       crossOrigin="anonymous"
     />
   )
