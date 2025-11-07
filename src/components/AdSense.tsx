@@ -2,7 +2,7 @@ import React from 'react';
 import Script from "next/script";
 
 type AdSenseTypes = {
-  pId: string;
+  pId: 9891580637314161;
 }
 
 const AdSense = ({ pId }: AdSenseTypes) => {
