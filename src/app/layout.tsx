@@ -10,7 +10,6 @@ import Chatbot from "@/components/ui/hopAssistant";
 import ThemeProvider from "@/components/ui/ThemeProvider";
 import { useTheme } from "@/components/ui/ThemeProvider";
 import Head from "next/head";
-import Script from "next/script";
 import AdSense from "@/components/AdSense";
 
 //export const metadata: Metadata = {
@@ -60,7 +59,7 @@ export default function RootLayout({
   return (
     <>
       <Head>
-        <Script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(HoldOnPlayData) }}
         />
