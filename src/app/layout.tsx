@@ -60,7 +60,7 @@ export default function RootLayout({
   return (
     <>
       <Head>
-        <Script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(HoldOnPlayData) }}
         />
