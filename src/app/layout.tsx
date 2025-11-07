@@ -63,7 +63,7 @@ export default function RootLayout({
         <Script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(HoldOnPlayData) }}
-        /Script>
+        />
         <AdSense pId="ca-pub-9891580637314161"/>
       </Head>
     <html lang="en">
