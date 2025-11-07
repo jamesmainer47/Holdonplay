@@ -6,7 +6,7 @@ import FourthSection from "@/components/ui/fourthSection";
 import NinthSection from "@/components/ui/ninthSection";
 import SecondSection from "@/components/ui/secondSection";
 import SeventhSection from "@/components/ui/seventhSection";
-import SixthSection from "@/components/ui/sixthSection";
+
 import ThirdSection from "@/components/ui/thirdSection";
 import { useTheme } from "@/components/ui/ThemeProvider";
 
@@ -21,7 +21,7 @@ export default function Home() {
       <div className="third"><ThirdSection/></div>
       <div className="four"><FourthSection/></div>
       <div className="five"><FifthSection/></div>
-      <div className="six"><SixthSection/></div>
+     
       <div className="seven"><SeventhSection/></div>
       <div className="eight"><EightSection/></div>
       <div className="nine"><NinthSection/></div>
